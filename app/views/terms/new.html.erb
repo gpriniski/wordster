@@ -1,0 +1,10 @@
+<h1>Enter Your Word Details</h1>
+
+
+
+<%= simple_form_for @term do |f| %>
+  <%= f.input :word %> 
+  <%= f.input :speach %>
+  <%= f.input :definition %>
+  <%= f.submit 'create', class: 'btn-danger' %>
+<% end %>

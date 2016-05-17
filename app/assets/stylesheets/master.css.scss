@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+.clear {
+  clear:both;
+}
+
+.logo{
+  font-family: 'Dancing Script', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  color: red;
+}
+
+body {
+  background: url('/assets/perforated_white_leather.png');
+}
+
+.box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 25px;
+}
+
+.link {
+  padding-top:8px;
+  font-size: 18px;
+  border-bottom: 1px solid #dfdfdf;
+
+
+}
+header {
+  border-top: 9px solid #222222;
+}
