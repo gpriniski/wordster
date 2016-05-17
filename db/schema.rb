@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 20160517165651) do
 
   create_table "terms", force: true do |t|
     t.string   "word"
-    t.string   "class"
+    t.string   "speach"
     t.string   "definition"
     t.datetime "created_at"
     t.datetime "updated_at"

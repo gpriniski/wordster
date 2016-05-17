@@ -3,7 +3,7 @@ class CreateTerms < ActiveRecord::Migration
     create_table :terms do |t|
 
       t.string :word
-      t.string :class
+      t.string :speach
       t.string :definition
 
       t.timestamps
